@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED2B18227FF70070053B031 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B18127FF70070053B031 /* Tests_iOS.swift */; };
+		CED2B18427FF70070053B031 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B18327FF70070053B031 /* Tests_iOSLaunchTests.swift */; };
+		CED2B18E27FF70070053B031 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B18D27FF70070053B031 /* Tests_macOS.swift */; };
+		CED2B19027FF70070053B031 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B18F27FF70070053B031 /* Tests_macOSLaunchTests.swift */; };
+		CED2B19127FF70070053B031 /* BingWave_Sample_App_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B16927FF70040053B031 /* BingWave_Sample_App_SwiftApp.swift */; };
+		CED2B19227FF70070053B031 /* BingWave_Sample_App_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B16927FF70040053B031 /* BingWave_Sample_App_SwiftApp.swift */; };
+		CED2B19327FF70070053B031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B16A27FF70040053B031 /* ContentView.swift */; };
+		CED2B19427FF70070053B031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B16A27FF70040053B031 /* ContentView.swift */; };
+		CED2B19527FF70070053B031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED2B16B27FF70070053B031 /* Assets.xcassets */; };
+		CED2B19627FF70070053B031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED2B16B27FF70070053B031 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED2B17E27FF70070053B031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED2B16427FF70040053B031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED2B16F27FF70070053B031;
+			remoteInfo = "BingWave Sample App Swift (iOS)";
+		};
+		CED2B18A27FF70070053B031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED2B16427FF70040053B031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED2B17527FF70070053B031;
+			remoteInfo = "BingWave Sample App Swift (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED2B16927FF70040053B031 /* BingWave_Sample_App_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWave_Sample_App_SwiftApp.swift; sourceTree = "<group>"; };
+		CED2B16A27FF70040053B031 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CED2B16B27FF70070053B031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED2B17027FF70070053B031 /* BingWave Sample App Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BingWave Sample App Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED2B17627FF70070053B031 /* BingWave Sample App Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BingWave Sample App Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED2B17827FF70070053B031 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CED2B17D27FF70070053B031 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED2B18127FF70070053B031 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		CED2B18327FF70070053B031 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		CED2B18927FF70070053B031 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED2B18D27FF70070053B031 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		CED2B18F27FF70070053B031 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED2B16D27FF70070053B031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B17327FF70070053B031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B17A27FF70070053B031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B18627FF70070053B031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED2B16327FF70040053B031 = {
+			isa = PBXGroup;
+			children = (
+				CED2B16827FF70040053B031 /* Shared */,
+				CED2B17727FF70070053B031 /* macOS */,
+				CED2B18027FF70070053B031 /* Tests iOS */,
+				CED2B18C27FF70070053B031 /* Tests macOS */,
+				CED2B17127FF70070053B031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED2B16827FF70040053B031 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CED2B16927FF70040053B031 /* BingWave_Sample_App_SwiftApp.swift */,
+				CED2B16A27FF70040053B031 /* ContentView.swift */,
+				CED2B16B27FF70070053B031 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CED2B17127FF70070053B031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED2B17027FF70070053B031 /* BingWave Sample App Swift.app */,
+				CED2B17627FF70070053B031 /* BingWave Sample App Swift.app */,
+				CED2B17D27FF70070053B031 /* Tests iOS.xctest */,
+				CED2B18927FF70070053B031 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED2B17727FF70070053B031 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CED2B17827FF70070053B031 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CED2B18027FF70070053B031 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CED2B18127FF70070053B031 /* Tests_iOS.swift */,
+				CED2B18327FF70070053B031 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		CED2B18C27FF70070053B031 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CED2B18D27FF70070053B031 /* Tests_macOS.swift */,
+				CED2B18F27FF70070053B031 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED2B16F27FF70070053B031 /* BingWave Sample App Swift (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED2B19927FF70070053B031 /* Build configuration list for PBXNativeTarget "BingWave Sample App Swift (iOS)" */;
+			buildPhases = (
+				CED2B16C27FF70070053B031 /* Sources */,
+				CED2B16D27FF70070053B031 /* Frameworks */,
+				CED2B16E27FF70070053B031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BingWave Sample App Swift (iOS)";
+			productName = "BingWave Sample App Swift (iOS)";
+			productReference = CED2B17027FF70070053B031 /* BingWave Sample App Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED2B17527FF70070053B031 /* BingWave Sample App Swift (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED2B19C27FF70070053B031 /* Build configuration list for PBXNativeTarget "BingWave Sample App Swift (macOS)" */;
+			buildPhases = (
+				CED2B17227FF70070053B031 /* Sources */,
+				CED2B17327FF70070053B031 /* Frameworks */,
+				CED2B17427FF70070053B031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BingWave Sample App Swift (macOS)";
+			productName = "BingWave Sample App Swift (macOS)";
+			productReference = CED2B17627FF70070053B031 /* BingWave Sample App Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED2B17C27FF70070053B031 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED2B19F27FF70070053B031 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				CED2B17927FF70070053B031 /* Sources */,
+				CED2B17A27FF70070053B031 /* Frameworks */,
+				CED2B17B27FF70070053B031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED2B17F27FF70070053B031 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = CED2B17D27FF70070053B031 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CED2B18827FF70070053B031 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED2B1A227FF70070053B031 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				CED2B18527FF70070053B031 /* Sources */,
+				CED2B18627FF70070053B031 /* Frameworks */,
+				CED2B18727FF70070053B031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED2B18B27FF70070053B031 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = CED2B18927FF70070053B031 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED2B16427FF70040053B031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CED2B16F27FF70070053B031 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CED2B17527FF70070053B031 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CED2B17C27FF70070053B031 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CED2B16F27FF70070053B031;
+					};
+					CED2B18827FF70070053B031 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CED2B17527FF70070053B031;
+					};
+				};
+			};
+			buildConfigurationList = CED2B16727FF70040053B031 /* Build configuration list for PBXProject "BingWave Sample App Swift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED2B16327FF70040053B031;
+			productRefGroup = CED2B17127FF70070053B031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED2B16F27FF70070053B031 /* BingWave Sample App Swift (iOS) */,
+				CED2B17527FF70070053B031 /* BingWave Sample App Swift (macOS) */,
+				CED2B17C27FF70070053B031 /* Tests iOS */,
+				CED2B18827FF70070053B031 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED2B16E27FF70070053B031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2B19527FF70070053B031 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B17427FF70070053B031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2B19627FF70070053B031 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B17B27FF70070053B031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B18727FF70070053B031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED2B16C27FF70070053B031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2B19327FF70070053B031 /* ContentView.swift in Sources */,
+				CED2B19127FF70070053B031 /* BingWave_Sample_App_SwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B17227FF70070053B031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2B19427FF70070053B031 /* ContentView.swift in Sources */,
+				CED2B19227FF70070053B031 /* BingWave_Sample_App_SwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B17927FF70070053B031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2B18427FF70070053B031 /* Tests_iOSLaunchTests.swift in Sources */,
+				CED2B18227FF70070053B031 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2B18527FF70070053B031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2B19027FF70070053B031 /* Tests_macOSLaunchTests.swift in Sources */,
+				CED2B18E27FF70070053B031 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED2B17F27FF70070053B031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED2B16F27FF70070053B031 /* BingWave Sample App Swift (iOS) */;
+			targetProxy = CED2B17E27FF70070053B031 /* PBXContainerItemProxy */;
+		};
+		CED2B18B27FF70070053B031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED2B17527FF70070053B031 /* BingWave Sample App Swift (macOS) */;
+			targetProxy = CED2B18A27FF70070053B031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CED2B19727FF70070053B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED2B19827FF70070053B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CED2B19A27FF70070053B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.BingWave-Sample-App-Swift";
+				PRODUCT_NAME = "BingWave Sample App Swift";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED2B19B27FF70070053B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.BingWave-Sample-App-Swift";
+				PRODUCT_NAME = "BingWave Sample App Swift";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED2B19D27FF70070053B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.BingWave-Sample-App-Swift";
+				PRODUCT_NAME = "BingWave Sample App Swift";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CED2B19E27FF70070053B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.BingWave-Sample-App-Swift";
+				PRODUCT_NAME = "BingWave Sample App Swift";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CED2B1A027FF70070053B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BingWave Sample App Swift (iOS)";
+			};
+			name = Debug;
+		};
+		CED2B1A127FF70070053B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BingWave Sample App Swift (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED2B1A327FF70070053B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BingWave Sample App Swift (macOS)";
+			};
+			name = Debug;
+		};
+		CED2B1A427FF70070053B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bingwave.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BingWave Sample App Swift (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED2B16727FF70040053B031 /* Build configuration list for PBXProject "BingWave Sample App Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2B19727FF70070053B031 /* Debug */,
+				CED2B19827FF70070053B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED2B19927FF70070053B031 /* Build configuration list for PBXNativeTarget "BingWave Sample App Swift (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2B19A27FF70070053B031 /* Debug */,
+				CED2B19B27FF70070053B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED2B19C27FF70070053B031 /* Build configuration list for PBXNativeTarget "BingWave Sample App Swift (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2B19D27FF70070053B031 /* Debug */,
+				CED2B19E27FF70070053B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED2B19F27FF70070053B031 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2B1A027FF70070053B031 /* Debug */,
+				CED2B1A127FF70070053B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED2B1A227FF70070053B031 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2B1A327FF70070053B031 /* Debug */,
+				CED2B1A427FF70070053B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED2B16427FF70040053B031 /* Project object */;
+}
