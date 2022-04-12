@@ -9,9 +9,9 @@ import SwiftUI
 
 
 struct ContentView: View {
-    //Interchange with whatever widget you want
-    //and replace the XX with the ID
-    let BINGWAVE_URL = URL(string:  "https://widgets.bingewave.com/webrtc/xxxxxx")
+    //Replace the XXX with the id of the live event
+    //This can be replaced with any widget offered
+    let BINGWAVE_URL = URL(string:  "https://widgets.bingewave.com/webrtc/xxxxx")
     
     var body: some View {
         NavigationView{

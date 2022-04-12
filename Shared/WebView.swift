@@ -22,6 +22,10 @@ struct SwiftUIWebView: UIViewRepresentable {
         
         //Add
         config.defaultWebpagePreferences = prefs
+        
+        config.mediaPlaybackRequiresUserAction = false
+        config.allowsInlineMediaPlayback = true
+        
         return CustomWebView(
             frame: .zero,
             configuration: config
