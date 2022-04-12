@@ -17,6 +17,10 @@
 		CED2B19427FF70070053B031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B16A27FF70040053B031 /* ContentView.swift */; };
 		CED2B19527FF70070053B031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED2B16B27FF70070053B031 /* Assets.xcassets */; };
 		CED2B19627FF70070053B031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED2B16B27FF70070053B031 /* Assets.xcassets */; };
+		CEF3E88427FFE4AD00414BCB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3E88327FFE4AD00414BCB /* WebView.swift */; };
+		CEF3E88527FFE4AD00414BCB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3E88327FFE4AD00414BCB /* WebView.swift */; };
+		CEF3E88727FFEFE200414BCB /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3E88627FFEFE200414BCB /* CustomWebView.swift */; };
+		CEF3E88827FFEFE200414BCB /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3E88627FFEFE200414BCB /* CustomWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		CED2B18927FF70070053B031 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED2B18D27FF70070053B031 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CED2B18F27FF70070053B031 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		CEF3E88327FFE4AD00414BCB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		CEF3E88627FFEFE200414BCB /* CustomWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,11 @@
 		CED2B16827FF70040053B031 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CEF3E88627FFEFE200414BCB /* CustomWebView.swift */,
 				CED2B16927FF70040053B031 /* BingWave_Sample_App_SwiftApp.swift */,
 				CED2B16A27FF70040053B031 /* ContentView.swift */,
 				CED2B16B27FF70070053B031 /* Assets.xcassets */,
+				CEF3E88327FFE4AD00414BCB /* WebView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,7 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF3E88427FFE4AD00414BCB /* WebView.swift in Sources */,
 				CED2B19327FF70070053B031 /* ContentView.swift in Sources */,
+				CEF3E88727FFEFE200414BCB /* CustomWebView.swift in Sources */,
 				CED2B19127FF70070053B031 /* BingWave_Sample_App_SwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF3E88527FFE4AD00414BCB /* WebView.swift in Sources */,
 				CED2B19427FF70070053B031 /* ContentView.swift in Sources */,
+				CEF3E88827FFEFE200414BCB /* CustomWebView.swift in Sources */,
 				CED2B19227FF70070053B031 /* BingWave_Sample_App_SwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,14 +475,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SA79CQZ362;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission is required to make the app work";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Permission is required to make the app work";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,14 +508,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SA79CQZ362;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission is required to make the app work";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Permission is required to make the app work";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

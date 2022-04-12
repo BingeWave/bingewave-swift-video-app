@@ -7,10 +7,17 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    //Interchange with whatever widget you want
+    //and replace the XX with the ID
+    let BINGWAVE_URL = URL(string:  "https://widgets.bingewave.com/webrtc/xxxxxx")
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            SwiftUIWebView(url: BINGWAVE_URL)
+                .navigationTitle("BingWave Sample App")
+        }
     }
 }
 
